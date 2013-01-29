@@ -1,4 +1,8 @@
 Jqueryfileuploadbackbone::Application.routes.draw do
+  get "qrcodes/index"
+
+  get "qrcodes/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
