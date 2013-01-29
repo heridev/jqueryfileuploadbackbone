@@ -1,0 +1,1 @@
+class Jqueryfileuploadbackbone.Routers.Qrcodes extends Backbone.Router
