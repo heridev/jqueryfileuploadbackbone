@@ -3,7 +3,9 @@ window.Jqueryfileuploadbackbone =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  ManageImages: ->
+    new Jqueryfileuploadbackbone.Routers.Qrcodes()
+    Backbone.history.start()
 
 $(document).ready ->
-  Jqueryfileuploadbackbone.initialize()
+  Jqueryfileuploadbackbone.ManageImages()

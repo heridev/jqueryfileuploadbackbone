@@ -1,0 +1,5 @@
+= form_tag 'api/qrcodes', :multipart => true, :id => 'fileupload' do
+  .fields
+    = file_field(:qrcode, :image)
+  #fileupload-loading{style: 'height: 50px; width: 200px;'}
+    %br
