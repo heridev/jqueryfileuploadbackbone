@@ -1,1 +1,4 @@
-###In the next repo we can see how to manage uploads in backbone using paperclip, rails, and jquery plugin file upload
+In the next repo we can see how to manage uploads in backbone using paperclip, rails, and jquery plugin file upload
+
+The original post tutorial in spanish currently you can find it in http://heridev.com.mx/backbone-on-rails/gestion-de-uploads-en-backbone-con-rails/
+
