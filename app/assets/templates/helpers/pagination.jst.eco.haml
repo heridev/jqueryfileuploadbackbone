@@ -1,0 +1,5 @@
+%a{ href: '#qrcodes/<%= @previousPage() %>', id: 'page-prev' ,class: "no-underline <%= 'disabled' if @currentPage() is 1 %>" } Prev
+<% for page in @blockPagination(): %>
+%a{ href: '#qrcodes/<%= page %>', id: 'page-<%= page %>', class: "<%= 'active' if page is @currentPage() %>", data: { page: '<%= page %>' }  } <%= page %>
+<% end %>
+%a{ href: '#qrcodes/<%= @nextPage() %>', id: 'page-next', class: "no-underline <%= 'disabled' if @currentPage() is @totalPages() %>", data: { page: '<%= @currentPage() %>' }  } Next

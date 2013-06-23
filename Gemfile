@@ -9,11 +9,12 @@ gem 'paperclip', '~> 3.4.0'
 gem 'aws-sdk', '~> 1.6.0'
 gem 'aws-s3'
 #gem 'mysql2'
-gem 'pg'
+gem 'sqlite3'
 gem 'devise'
 gem 'jquery-fileupload-rails'
 gem 'rb-readline'
 gem 'debugger'
+gem 'kaminari'
   # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
