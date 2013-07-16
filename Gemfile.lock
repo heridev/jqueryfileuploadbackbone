@@ -125,6 +125,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.4.0)
       mime-types
+    pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.10)
       coderay (~> 1.0.5)
@@ -217,6 +218,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   paperclip (~> 3.4.0)
+  pg
   rails (= 3.2.11)
   rb-readline
   rspec-rails
