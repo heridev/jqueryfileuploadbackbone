@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'jquery-rails'
-gem 'rails', '3.2.11'
+gem 'rails', '4.0.0'
 gem 'paperclip', '~> 3.4.0'
 gem 'aws-sdk', '~> 1.6.0'
 gem 'aws-s3'
@@ -17,7 +17,7 @@ gem 'debugger'
   # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'backbone-on-rails'
+  gem 'backbone-on-rails', '>= 0.9.2.3'
   gem 'backbone-support'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'eco'
