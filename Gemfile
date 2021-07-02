@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'jquery-rails'
-gem 'rails', '3.2.11'
+gem 'rails', '4.0.0'
 gem 'paperclip', '~> 3.4.0'
 gem 'aws-sdk', '~> 1.6.0'
 gem 'aws-s3'
